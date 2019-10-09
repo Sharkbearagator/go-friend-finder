@@ -3,7 +3,7 @@ import {Nav, Navbar, NavDropdown, MenuItem, Tabs, ButtonToolbar, Button, Table, 
 
 function Navigator (){
     return(
-    <Navbar bg="dark" expand="lg">
+    <Navbar bg="dark" variant="dark">
   <Navbar.Brand href="#home">Go Friend Finder</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
