@@ -13,10 +13,13 @@ code {
 .jumbotron{
   margin: 50px;
   opacity: 0.8;
-  
+  align-content: center;
 }
 .btn{
   margin: 20px;
   background-color: #0B244D;
 }
 
+.card{
+  margin: 10px;
+}
