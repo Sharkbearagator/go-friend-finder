@@ -1,10 +1,10 @@
 import React from 'react';
-import {Nav, Navbar, Button, Jumbotron} from 'react-bootstrap';
+import {Nav, Navbar, Button, Jumbotron,} from 'react-bootstrap';
 
 function Home (){
     return(
       <div>
-      <Navbar bg="dark" variant="dark">
+      {/* <Navbar bg="dark" variant="dark">
   <Navbar.Brand href="#home">Go Friend Finder</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
@@ -14,7 +14,7 @@ function Home (){
       <Nav.Link href="#link">Account</Nav.Link>
       </Nav>
       </Navbar.Collapse>
-</Navbar>
+</Navbar> */}
         <Jumbotron>
         <h1>Hello, Trainers!</h1>
         <p>
@@ -22,7 +22,7 @@ function Home (){
           Create your account here or login with Google, Facebook, or your account.
         </p>
         <p>
-    <Button variant="primary">Login</Button>
+    <Button variant="primary" a href="/login">Login</Button>
     <Button variant="primary">Create account</Button>
         </p>
         
