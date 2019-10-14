@@ -9,7 +9,6 @@ function Acc (){
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link href="/">Home</Nav.Link>
       <Nav.Link href="/groups">Groups</Nav.Link>
       <Nav.Link href="/account">Account</Nav.Link>
       <Nav.Link href="/gallery">Gallery</Nav.Link>

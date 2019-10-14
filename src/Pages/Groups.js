@@ -9,7 +9,6 @@ function Group (){
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link href="/">Home</Nav.Link>
       <Nav.Link href="/groups">Groups</Nav.Link>
       <Nav.Link href="/account">Account</Nav.Link>
       <Nav.Link href="/gallery">Gallery</Nav.Link>
@@ -24,8 +23,8 @@ function Group (){
       alt="First slide"
     />
     <Carousel.Caption>
-      <h3>Top Groups</h3>
-      <p>Trending Groups will go here.</p>
+      <h3>Featured Groups!</h3>
+      <p>Featured Groups of the Month!</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
