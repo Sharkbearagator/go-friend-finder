@@ -1,20 +1,9 @@
 import React from 'react';
-import {Nav, Navbar, Button, Jumbotron,} from 'react-bootstrap';
+import { Button, Jumbotron,} from 'react-bootstrap';
 
 function Home (){
     return(
       <div>
-      {/* <Navbar bg="dark" variant="dark">
-  <Navbar.Brand href="#home">Go Friend Finder</Navbar.Brand>
-  <Navbar.Toggle aria-controls="basic-navbar-nav" />
-  <Navbar.Collapse id="basic-navbar-nav">
-    <Nav className="mr-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#home">Groups</Nav.Link>
-      <Nav.Link href="#link">Account</Nav.Link>
-      </Nav>
-      </Navbar.Collapse>
-</Navbar> */}
         <Jumbotron>
         <h1>Hello, Trainers!</h1>
         <p>
