@@ -1,5 +1,5 @@
 import React from "react";
-import { Nav, Navbar, Button, Jumbotron, Form } from "react-bootstrap";
+import { Button, Jumbotron, Form } from "react-bootstrap";
 
 function Log() {
   return (

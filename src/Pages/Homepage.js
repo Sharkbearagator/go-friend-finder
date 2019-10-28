@@ -1,10 +1,12 @@
-import React from "react";
-import { Nav, Navbar, Button, Jumbotron } from "react-bootstrap";
 
-function Home() {
-  return (
-    <div>
-      <Jumbotron>
+import React from 'react';
+import { Button, Jumbotron,} from 'react-bootstrap';
+
+function Home (){
+    return(
+      <div>
+        <Jumbotron>
+
         <h1>Hello, Trainers!</h1>
         <p>
           Welcome to Go Friend Finder! A place where you can find all the people
