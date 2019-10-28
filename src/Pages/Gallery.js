@@ -5,7 +5,9 @@ function Gallery() {
   return (
     <div>
       <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="/groups">Go Friend Finder</Navbar.Brand>
+
+        <Navbar.Brand href="/account">Go Friend Finder</Navbar.Brand>
+
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
@@ -18,7 +20,7 @@ function Gallery() {
       <Jumbotron className = "gallery-tron">
         <Row>
           <Col>
-            <Card className="bg-transparent 100px100">
+            <Card>
               <Card.Img src="https://i.redd.it/vceqchfhrek21.jpg" alt="Card image" />
               <Card.Footer>
                 <Button variant="outline-dark" href="/">
@@ -28,7 +30,7 @@ function Gallery() {
             </Card>
           </Col>
           <Col>
-            <Card className="bg-transparent 100px100">
+            <Card>
               <Card.Img src="http://40.media.tumblr.com/0faece4a8d8c2c6d5a305b77dae00cba/tumblr_nzbo97f0Cv1tsynyjo1_500.jpg" alt="Card image" />
               <Card.Footer>
                 <Button variant="outline-dark" href="/">
@@ -38,7 +40,7 @@ function Gallery() {
             </Card>
           </Col>
           <Col>
-            <Card className="bg-transparent 100px100">
+            <Card>
               <Card.Img src="https://i.redd.it/kjj6jadtpjs31.png" alt="Card image" />
               <Card.Footer>
                 <Button variant="outline-dark" href="/questions">

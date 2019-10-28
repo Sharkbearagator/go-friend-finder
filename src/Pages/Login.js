@@ -6,9 +6,7 @@ function Log() {
     <div>
       <Jumbotron>
         <h1>Hello, Returning Trainer!</h1>
-        <p>
-        Sign in with facebook, google, or your Go Friend Finder account
-        </p>
+        <p>Sign in with facebook, google, or your Go Friend Finder account</p>
         <p>
           <Form>
             <Form.Group controlId="formBasicEmail">
@@ -23,11 +21,11 @@ function Log() {
               <Form.Label>Password</Form.Label>
               <Form.Control type="password" placeholder="Password" />
             </Form.Group>
-            <Button variant="primary" type="submit" >
-            <i class="fab fa-facebook-f"></i>
+            <Button variant="primary" type="submit">
+              <i class="fab fa-facebook-f"></i>
             </Button>
             <Button variant="primary" type="submit">
-            <i class="fab fa-google"></i>
+              <i class="fab fa-google"></i>
             </Button>
             <Button variant="primary" type="submit">
               Submit
