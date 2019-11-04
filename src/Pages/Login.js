@@ -1,18 +1,18 @@
 import React from "react";
-<<<<<<< HEAD
 import { Button, Jumbotron, Form, Row } from "react-bootstrap";
 import FacebookLogin from "react-facebook-login";
 import GoogleLogin from "react-google-login";
-=======
-import { Button, Jumbotron, Form } from "react-bootstrap";
-
->>>>>>> 3f2a470691982901405ad9a54c9c9d2da687d261
+import { tsPropertySignature } from "@babel/types";
 function Log() {
   const responseFacebook = response => {
     console.log(response);
+    props.userHasAuthenticated(true);
+    props.history.push("/account")
   };
   const responseGoogle = response => {
     console.log(response);
+    props.userHasAuthenticated(true);
+    props.history.push("/account")
   };
   return (
     <div>
