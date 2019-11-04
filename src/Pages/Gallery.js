@@ -5,7 +5,11 @@ function Gallery() {
   return (
     <div>
       <Navbar bg="dark" variant="dark">
+<<<<<<< HEAD
         <Navbar.Brand href="/account">Go Friend Finder</Navbar.Brand>
+=======
+        <Navbar.Brand href="/groups">Go Friend Finder</Navbar.Brand>
+>>>>>>> 3f2a470691982901405ad9a54c9c9d2da687d261
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
