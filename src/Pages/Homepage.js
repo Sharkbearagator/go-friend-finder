@@ -1,3 +1,22 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+import React from "react";
+import { Nav, Navbar, Button, Jumbotron } from "react-bootstrap";
+
+function Home() {
+  return (
+    <div>
+      <Jumbotron>
+=======
+import React from 'react';
+import { Button, Jumbotron,} from 'react-bootstrap';
+
+function Home (){
+    return(
+      <div>
+        <Jumbotron>
+>>>>>>> 3f2a470691982901405ad9a54c9c9d2da687d261
+=======
 
 import React from 'react';
 import { Button, Jumbotron,} from 'react-bootstrap';
@@ -7,6 +26,7 @@ function Home (){
       <div>
         <Jumbotron>
 
+>>>>>>> ec5069b44b033693e87ceedf06b5966b5f06b253
         <h1>Hello, Trainers!</h1>
         <p>
           Welcome to Go Friend Finder! A place where you can find all the people

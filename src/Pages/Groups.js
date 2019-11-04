@@ -1,9 +1,19 @@
-import React from 'react';
-import {Nav, Navbar, Button, Jumbotron, Card, Row, Carousel} from 'react-bootstrap';
+import React from "react";
+import {
+  Nav,
+  Navbar,
+  Button,
+  Jumbotron,
+  Card,
+  Row,
+  Carousel,
+  Form
+} from "react-bootstrap";
 
-function Group (){
-    return(
-      <div>
+
+function Group() {
+  return (
+    <div>
       <Navbar bg="dark" variant="dark">
 
   <Navbar.Brand href="/account">Go Friend Finder</Navbar.Brand>
@@ -36,57 +46,55 @@ function Group (){
       alt="Second slide"
     />
 
-    <Carousel.Caption>
-      <h3>Let's Go Raid</h3>
-      <p>A group for finding raids!</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="carousel-img"
-      src="https://i.kinja-img.com/gawker-media/image/upload/c_fit,f_auto,fl_progressive,q_80,w_137/hehfjmec9gveozuwdbbz.jpg"
-      alt="Third slide"
-    />
+          <Carousel.Caption>
+            <h3>Team Instinct</h3>
+            <p>Group for Team Instinct!</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
+      <Jumbotron>
+        <Row className="text-align-center">
+          <Form>
+            <Form.Group controlId="groupName">
+              <Form.Label>Name of Group</Form.Label>
+              <Form.Control type="text" placeholder="Group..." />
+            </Form.Group>
 
-    <Carousel.Caption>
-      <h3>Team Instinct</h3>
-      <p>Group for Team Instinct!</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-</Carousel>
-        <Jumbotron>
+            <Form.Group controlId="groupBio">
+              <Form.Label>Description</Form.Label>
+              <Form.Control type="text" placeholder="Description..." />
+            </Form.Group>
+            <Button variant="primary" type="submit">
+              Submit
+            </Button>
+          </Form>
+        </Row>
         <Row>
-        <Card style={{ width: '18rem' }}>
-  <Card.Body>
-    <Card.Title>Group 1</Card.Title>
-    <Card.Text>
-      Auto filled group cards
-    </Card.Text>
-    <Button variant="primary">Join Group</Button>
-  </Card.Body>
-</Card>
- <Card style={{ width: '18rem' }}>
-  <Card.Body>
-    <Card.Title>Group 2</Card.Title>
-    <Card.Text>
-    Auto filled group cards
-    </Card.Text>
-    <Button variant="primary">Join Group</Button>
-  </Card.Body>
-</Card>
-<Card style={{ width: '18rem' }}>
-  <Card.Body>
-    <Card.Title>Group 3</Card.Title>
-    <Card.Text>
-    Auto filled group cards
-    </Card.Text>
-    <Button variant="primary">Join Group</Button>
-  </Card.Body>
-</Card>
-</Row>
+          <Card style={{ width: "18rem" }}>
+            <Card.Body>
+              <Card.Title>Group 1</Card.Title>
+              <Card.Text>Auto filled group cards</Card.Text>
+              <Button variant="primary">Join Group</Button>
+            </Card.Body>
+          </Card>
+          <Card style={{ width: "18rem" }}>
+            <Card.Body>
+              <Card.Title>Group 2</Card.Title>
+              <Card.Text>Auto filled group cards</Card.Text>
+              <Button variant="primary">Join Group</Button>
+            </Card.Body>
+          </Card>
+          <Card style={{ width: "18rem" }}>
+            <Card.Body>
+              <Card.Title>Group 3</Card.Title>
+              <Card.Text>Auto filled group cards</Card.Text>
+              <Button variant="primary">Join Group</Button>
+            </Card.Body>
+          </Card>
+        </Row>
       </Jumbotron>
-      </div>
-    )
+    </div>
+  );
 }
 
 export default Group;
