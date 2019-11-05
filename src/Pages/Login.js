@@ -1,18 +1,16 @@
 import React from "react";
-<<<<<<< HEAD
 import { Button, Jumbotron, Form, Row } from "react-bootstrap";
 import FacebookLogin from "react-facebook-login";
 import GoogleLogin from "react-google-login";
-=======
-import { Button, Jumbotron, Form } from "react-bootstrap";
-
->>>>>>> 3f2a470691982901405ad9a54c9c9d2da687d261
+import { tsPropertySignature } from "@babel/types";
 function Log() {
   const responseFacebook = response => {
     console.log(response);
+    
   };
   const responseGoogle = response => {
     console.log(response);
+   
   };
   return (
     <div>
@@ -52,7 +50,7 @@ function Log() {
               }}
             />
             <GoogleLogin
-              clientId="658977310896-knrl3gka66fldh83dao2rhgbblmd4un9.apps.googleusercontent.com"
+              clientId="634871500840-6ttuhrffbmmhffen4rercr5aribtjqfu.apps.googleusercontent.com"
               buttonText="Login"
               onSuccess={responseGoogle}
               onFailure={responseGoogle}
