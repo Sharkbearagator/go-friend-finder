@@ -5,17 +5,9 @@ function Acc (){
     return(
       <div>
       <Navbar bg="dark" variant="dark">
-<<<<<<< HEAD
-<<<<<<< HEAD
-  <Navbar.Brand href="/account">Go Friend Finder</Navbar.Brand>
-=======
-  <Navbar.Brand href="/groups">Go Friend Finder</Navbar.Brand>
->>>>>>> 3f2a470691982901405ad9a54c9c9d2da687d261
-=======
 
   <Navbar.Brand href="/account">Go Friend Finder</Navbar.Brand>
 
->>>>>>> ec5069b44b033693e87ceedf06b5966b5f06b253
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
